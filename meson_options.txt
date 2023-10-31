@@ -1,0 +1,7 @@
+option('python_path',
+    type: 'string',
+    value: 'bin/python3',
+    description: 'Path to search for python3. Set blank to use system python.'
+    + 'Start with a / to use an absolute path. Start with any other character'
+    + 'to search relative to meson.build.'
+)
